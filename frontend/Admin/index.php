@@ -64,8 +64,7 @@ $sql = 'SELECT * FROM company';
         </div>
     <?php } ?>
 
-    <?php include '../../Comman_pages/navbar.php'; ?>
-
+    <?php include '../../Comman_pages/fetchAllCompany.php' ?>
     <?php if (isset($_SESSION['Admin_name'])) { ?>
         <center>
             <div class="heading" data-aos="fade-out" data-aos-delay="400">
