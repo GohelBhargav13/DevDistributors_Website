@@ -1,0 +1,17 @@
+ <!-- <form action="./company.php" method="post" id="secureform_<?= $row['id']; ?>" style="display: none;">
+                    <input type="hidden" name="company_id" value="<?= htmlspecialchars($row['id']) ?>">
+                 </form>
+                    <a href="#" onclick="document.getElementById('secureform_<?= $row['id']; ?>').submit(); return false;">
+                        <img src="assets/company_img/<?= htmlspecialchars($row['image']) ?>">
+                    </a>
+                -->
+
+
+
+
+ <form action="./demo.php" id="ssecure_<?= $row['id']?>" method="post" style="display: none;">
+                    <input type="hidden" name="pro_id" value="<?= htmlspecialchars($row['id'])?>">
+                </form>
+                <a href="#" onclick="document.getElementById('ssecure_<?= $row['id'] ?>').submit(); return false;">
+                    <img src="assets/product_img/<?= htmlspecialchars($row['image']) ?>">
+                </a>

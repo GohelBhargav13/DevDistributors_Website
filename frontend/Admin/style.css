@@ -1,0 +1,4819 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.carousel-control-prev-icon {
+    color: #000000;
+}
+
+.card
+{
+    display: inline-block;
+}
+
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+}
+
+/* Card Css */
+.card {
+    
+    background-color: #141414;
+    color: white;
+    border-radius: 20px;
+    /* margin-left: 100px;
+    margin-top: 25px; */
+    margin: 30px;
+    cursor: pointer;
+}
+
+.card-img {
+    height: 20vw;
+    border-radius: 30px;
+}
+
+#buy {
+    color: aqua;
+    
+    border: none;
+    font-size: 20px;
+}
+
+.card-title {
+    color: aqua;
+    margin-left: 0px;
+}
+
+.price {
+    color: aqua;
+    
+}
+
+#price2 {
+    margin-left: 78px;
+}
+
+#price3 {
+    margin-left: 55px;
+}
+
+/* Product2 Card Color Section 2 */
+
+/* Product2 Card 
+/* Product2 Card Color Section 2 end*/
+/* Card Css End  */
+
+
+.footer {
+    display: none;
+}
+
+.comming {
+    color: white;
+    margin: 10vw;
+    margin-left: 21vw;
+    margin-top: 45vw;
+}
+
+.btn-group button {
+    background-color: black;
+    /* Green background */
+    border: 1px solid transparent;
+    /* Green border */
+    color: aqua;
+    /* White text */
+    padding: 20px 46.5px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.btn-group i {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3498DB;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    bottom: 95.8px;
+    z-index: 1;
+}
+
+.dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropup-content a:hover {
+    background-color: #ccc
+}
+
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+.dropup:hover .dropbtn {
+    background-color: #2980B9;
+}
+
+/* close */
+/*-Main Gif Section-*/
+.gif {
+    width: 100%;
+    background-color: black;
+    background-image: url(../Admin/css/GIF.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+/*-Navigation Section-*/
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 255, 3%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.aqua {
+    color: #00ffff;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown-item {
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar-brand .text-light {
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    
+}
+
+.collapse .navbar-collapse {
+    margin: 20px;
+}
+
+.nav-item {
+    font-weight: bolder;
+}
+
+.navbar-nav {
+    
+    right: 40vw;
+}
+
+.form-control {
+    margin-left: 37vw;
+}
+
+/*-Search Button Section-*/
+.btn {
+    background-color: transparent;
+    color: aliceblue;
+    border-color: aqua;
+}
+
+.btn:hover {
+    background-color: rgb(23, 23, 23);
+    ;
+
+}
+
+/*Main Welcome Heading Section*/
+.heading {
+    margin-left: 5.7vw;
+    margin-top: -1vw;
+}
+
+.heading h1 {
+    font-size: 7vw;
+}
+
+.white {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*-Main Title Section-*/
+.maintitle h1 {
+    margin-top: 7vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    font-size: 4.5vw;
+    border-bottom: 3px solid white;
+}
+
+/*-Company Section-*/
+.company img {
+    display: inline-block;
+    height: 16vw;
+    width: 16vw;
+    border-radius: 50%;
+    position: relative;
+    left: 5vw;
+    /* margin-top: 3vw; */
+    margin: 2.6vw;
+    /* margin-left: 4vw;  */
+}
+
+.card-img-top {
+    border-radius: 30px;
+}
+
+#card2 {
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.card-title {
+    color: aqua;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.card-title span {
+    color: aqua;
+}
+
+/*-Company Section-*/
+.company h2 {
+    display: none;
+
+}
+
+.company h3 {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* -------------------------------------------------------------index page css close-------------------------------------------------- */
+
+.fa-solid .fa-magnifying-glass {
+    color: #fff;
+    background-color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: black;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid aqua;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: animate-preloader 1s linear infinite;
+}
+
+.preloader-title h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    display: flex;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60%;
+}
+
+
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+body {
+    background-color: black;
+    
+}
+
+body::-webkit-scrollbar {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: aqua;
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: aqua;
+    border-radius: 20px;
+    visibility: visible;
+}
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: white;
+}
+
+#hero {
+    min-height: 40vw;
+    min-width: 100%;
+}
+
+.product-drop {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+}
+
+.product-drop ul {
+    display: block;
+    margin: 10px;
+
+}
+
+.product-drop ul li {
+    display: block;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    animation: blink timing-function delay iteration-count direction fill-mode;
+
+}
+
+.nav-part2 {
+    display: flex;
+
+}
+
+.nav h1 a {
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 1vw 2vw;
+    cursor: default;
+
+}
+
+.nav-part2 h4 a {
+    display: flex;
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 1vw 1.8vw;
+}
+
+.nav-part2 i {
+    visibility: hidden;
+
+}
+
+.nav i {
+    visibility: hidden;
+    display: none;
+}
+
+.heading {
+    font-family: 'Eczar', serif;
+    font-weight: 800;
+    padding: 100px 25px;
+    font-size: 4.5vw;
+}
+
+.red {
+    color: aqua;
+}
+
+.product-heading1 {
+    font-size: 4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+    margin: 0vw 3.5vw;
+    border-bottom: 2px solid whitesmoke;
+    font-weight: bolder;
+    justify-content: space-between;
+}
+
+.product-heading1 a {
+    text-decoration: none;
+    color: aqua;
+    font-size: 2vw;
+    padding-left: 55vw;
+}
+
+.product-heading {
+    font-size: 4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+    margin: 2vw 3vw;
+    border-bottom: 2px solid whitesmoke;
+    font-weight: bolder;
+}
+
+.product {
+    display: inline-block;
+
+}
+
+.product img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3vw 5vw;
+
+}
+
+.laptop {
+    height: 40vw;
+    width: 100%;
+}
+
+.hero2 {
+    min-width: 100vw;
+    height: 50%;
+}
+
+.product-logo {
+    margin: 2vw 7.5vw;
+    border-bottom: 1.5px solid white;
+
+}
+
+.item {
+    margin: 6vw 6vw;
+}
+
+.product-img {
+    width: 15vw;
+}
+
+.product-main {
+    margin: 5vw 1vw;
+}
+
+.product-photo {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 9%;
+}
+
+.product-photo4 {
+    width: 45vw;
+    height: 52vw;
+    border-radius: 9%;
+    padding-top: 2.5vw;
+}
+
+.product-photo5 {
+    width: 45vw;
+    height: 55vw;
+    border-radius: 9%;
+    padding-top: 2.5vw;
+}
+
+.product-photo3 {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 9%;
+}
+
+.product-section {
+    display: inline-block;
+}
+
+.product-section2 {
+    display: inline-block;
+}
+
+.product-photo:hover {
+    transform: scale(1.2);
+}
+
+.product-box {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw yellow;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 16px rgb(255, 255, 0);
+}
+
+.product-box h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+}
+
+.product-box p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: yellow;
+    padding-top: 1.2vw;
+}
+
+.product-box i {
+    font-size: 1..5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box .butoons a:hover {
+    background-color: yellow;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.product-box .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: yellow;
+    border: 1.5px solid yellow;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*-------------------Diffrent Color Section Start----------------------------*/
+/*----second product------*/
+.product-box2 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw whitesmoke;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box2:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 16px rgb(255, 255, 255);
+}
+
+.product-box2 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.product-box2 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box2 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: whitesmoke;
+    padding-top: 1.2vw;
+}
+
+.product-box2 i {
+    font-size: 1..5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box2 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box2 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1.5px solid whitesmoke;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box2 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------third product-----*/
+.product-box3 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw red;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box3:hover* {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 16px red;
+}
+
+.product-box3 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(194, 11, 11);
+}
+
+.product-box3 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box3 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(194, 11, 11);
+    padding-top: 1.2vw;
+}
+
+.product-box3 i {
+    font-size: 1..5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box3 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box3 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(194, 11, 11);
+    border: 1.5px solid red;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box3 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*-----fourth product-------*/
+.product-box4 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw rgb(72, 72, 235);
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box4:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 16px rgb(72, 72, 235);
+}
+
+.product-box4 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(72, 72, 235);
+}
+
+.product-box4 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box4 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(72, 72, 235);
+    padding-top: 1.2vw;
+}
+
+.product-box4 i {
+    font-size: 1..5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box4 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box4 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(72, 72, 235);
+    border: 1.5px solid rgb(72, 72, 235);
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box4 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/*-----fifth product-------*/
+.product-box5 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw rgb(3, 235, 3);
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box5:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 16px rgb(3, 235, 3);
+}
+
+.product-box5 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(3, 235, 3);
+}
+
+.product-box5 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box5 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(3, 235, 3);
+    padding-top: 1.2vw;
+}
+
+.product-box5 i {
+    font-size: 1..5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box5 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box5 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(3, 235, 3);
+    border: 1.5px solid rgb(3, 235, 3);
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box5 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*-----fifth product-------*/
+.product-box6 {
+    padding: 2vw;
+    text-align: center;
+    background-color: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw rgb(59, 236, 248);
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box6 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(59, 236, 248);
+}
+
+.product-box6 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box6 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(59, 236, 248);
+    padding-top: 1.2vw;
+}
+
+.product-box6 i {
+    font-size: 1..5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box6 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box6 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(59, 236, 248);
+    border: 1.5px solid rgb(59, 236, 248);
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box6 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------seventh product-----*/
+.product-box7 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw red;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box7 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(194, 11, 11);
+}
+
+.product-box7 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box7 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(194, 11, 11);
+    padding-top: 1.2vw;
+}
+
+.product-box7 i {
+    font-size: 1..5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box7 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box7 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(194, 11, 11);
+    border: 1.5px solid red;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box7 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------eight product-----*/
+.product-box8 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw rgb(0, 185, 247);
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box8 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 185, 247);
+}
+
+.product-box8 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box8 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(0, 185, 247);
+    padding-top: 1.2vw;
+}
+
+.product-box8 i {
+    font-size: 1..5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box8 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box8 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(0, 185, 247);
+    border: 1.5px solid rgb(0, 185, 247);
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box8 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------nine product-----*/
+.product-box9 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw rgb(225, 0, 255);
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box9 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(225, 0, 255);
+}
+
+.product-box9 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box9 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(225, 0, 255);
+    padding-top: 1.2vw;
+}
+
+.product-box9 i {
+    font-size: 1..5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box9 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box9 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(225, 0, 255);
+    border: 1.5px solid rgb(225, 0, 255);
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box9 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/*------Ten product-----*/
+.product-box10 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw rgb(252, 168, 13);
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box10 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(252, 168, 13);
+}
+
+.product-box10 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box10 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(252, 168, 13);
+    padding-top: 1.2vw;
+}
+
+.product-box10 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box10 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box10 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(252, 168, 13);
+    border: 1.5px solid rgb(252, 168, 13);
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box10 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------11 product-----*/
+.product-box11 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw rgb(252, 109, 13);
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box11 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(252, 109, 13);
+}
+
+.product-box11 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box11 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(252, 109, 13);
+    padding-top: 1.2vw;
+}
+
+.product-box11 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box11 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box11 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(252, 109, 13);
+    border: 1.5px solid rgb(252, 109, 13);
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box11 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------12 product-----*/
+.product-box12 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw rgb(0, 38, 255);
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box12 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 38, 255);
+}
+
+.product-box12 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box12 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(0, 38, 255);
+    padding-top: 1.2vw;
+}
+
+.product-box12 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box12 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box12 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(0, 38, 255);
+    border: 1.5px solid rgb(0, 38, 255);
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box12 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------13 product-----*/
+.product-box13 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw white;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box13 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.product-box13 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box13 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    padding-top: 1.2vw;
+}
+
+.product-box13 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box13 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box13 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+    border: 1.5px solid whitesmoke;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box13 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------14 product-----*/
+.product-box14 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw rgb(169, 83, 226);
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box14 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(169, 83, 226);
+}
+
+.product-box14 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box14 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(169, 83, 226);
+    padding-top: 1.2vw;
+}
+
+.product-box14 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box14 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box14 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(169, 83, 226);
+    border: 1.5px solid rgb(169, 83, 226);
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box14 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+/*------15 product-----*/
+.product-box15 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw brown;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box15 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+.product-box15 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box15 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: brown;
+    padding-top: 1.2vw;
+}
+
+.product-box15 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box15 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box15 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: brown;
+    border: 1.5px solid brown;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box15 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+/*------16 product-----*/
+.product-box16 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw rgb(184, 38, 118);
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box16 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(184, 38, 118);
+}
+
+.product-box16 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box16 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(184, 38, 118);
+    padding-top: 1.2vw;
+}
+
+.product-box16 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box16 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box16 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(184, 38, 118);
+    border: 1.5px solid rgb(184, 38, 118);
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box16 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------17 product-----*/
+.product-box17 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw #f6e7c0;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box17 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f6e7c0;
+}
+
+.product-box17 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box17 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #f6e7c0;
+    padding-top: 1.2vw;
+}
+
+.product-box17 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box17 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box17 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #f6e7c0;
+    border: 1.5px solid #f6e7c0;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box17 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------18 product-----*/
+.product-box18 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw #fec458;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box18 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fec458;
+}
+
+.product-box18 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box18 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #fec458;
+    padding-top: 1.2vw;
+}
+
+.product-box18 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box18 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box18 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #fec458;
+    border: 1.5px solid #fec458;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box18 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------19 product-----*/
+.product-box19 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw #2d9dd4;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box19 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2d9dd4;
+}
+
+.product-box19 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box19 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #2d9dd4;
+    padding-top: 1.2vw;
+}
+
+.product-box19 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box19 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box19 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #2d9dd4;
+    border: 1.5px solid #2d9dd4;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box19 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/*------20 product-----*/
+.product-box20 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw #5c54a1;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box20 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5c54a1;
+}
+
+.product-box20 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box20 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #5c54a1;
+    padding-top: 1.2vw;
+}
+
+.product-box20 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box20 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box20 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #5c54a1;
+    border: 1.5px solid #5c54a1;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box20 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------21 product-----*/
+.product-box21 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw #d71d42;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box21 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #d71d42;
+}
+
+.product-box21 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box21 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #d71d42;
+    padding-top: 1.2vw;
+}
+
+.product-box21 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box21 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box21 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #d71d42;
+    border: 1.5px solid #d71d42;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box21 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------22 product-----*/
+.product-box22 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw #18a2d0;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box22 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #18a2d0;
+}
+
+.product-box22 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box22 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #18a2d0;
+    padding-top: 1.2vw;
+}
+
+.product-box22 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box22 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box22 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #18a2d0;
+    border: 1.5px solid #18a2d0;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box22 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------23 product-----*/
+.product-box23 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw #e282b0;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box23 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e282b0;
+}
+
+.product-box23 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box23 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #e282b0;
+    padding-top: 1.2vw;
+}
+
+.product-box23 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box23 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box23 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #e282b0;
+    border: 1.5px solid #e282b0;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box23 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------24 product-----*/
+.product-box24 {
+    padding: 2vw;
+    text-align: center;
+    background: #000;
+    position: relative;
+    margin: 2vw;
+    width: 23vw;
+    height: 36.5vw;
+    box-shadow: 0.2vw 0.2vw 1.2vw #cf8c43;
+    border-radius: 7.5%;
+    transition: 0.5s;
+}
+
+.product-box24 h3 {
+    padding-top: 1.5vw;
+    font-size: 1.8vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #cf8c43;
+}
+
+.product-box24 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 0.8vw;
+
+}
+
+.product-box24 .price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #cf8c43;
+    padding-top: 1.2vw;
+}
+
+.product-box24 i {
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-box24 .butoons {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin-top: 0.5vw;
+}
+
+.product-box24 .butoons a {
+    margin-left: 8vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #cf8c43;
+    border: 1.5px solid #cf8c43;
+    border-radius: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-box24 .butoons a.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/*-About Page Css-*/
+.headeing {
+    border-top: 2px solid white;
+    padding: 20px;
+}
+
+.b {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+    font-size: 50px;
+    text-shadow: 3px 3px 15px aqua;
+    padding-top: 2vw;
+}
+
+.Story {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.section-heading h1 {
+    font-size: 5vw;
+}
+
+.section-heading a {
+    font-size: 3vw;
+}
+
+.section-heading .b {
+    font-size: 25px;
+}
+
+
+
+/*-Footer Section-*/
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 20px;
+    background-color: black;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+footer .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.aqua {
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer .container .sec h2 {
+    position: relative;
+    color: white;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer .container .sec p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+footer .container .sci {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+}
+
+footer .container .sci li {
+    list-style: none;
+}
+
+footer .container .sci li a {
+    display: inline-block;
+    width: 360px;
+    height: 36px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer .container .sci li a i {
+    color: aqua;
+    font-size: 20px;
+    margin-right: 25vw;
+}
+
+footer .container .QuickLinks h3 {
+    position: relative;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+
+}
+
+footer .container .QuickLinks ul {
+    list-style: none;
+
+}
+
+footer .container .Contact {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+footer .container .QuickLinks ul li a {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer .container .Contact .info {
+    position: relative;
+    margin-top: 20px;
+}
+
+footer .container .Contact .info li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 20px;
+}
+
+footer .container .Contact .info li span {
+    color: aqua;
+    font-size: 15px;
+}
+
+footer .container .Contact .info li a {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.copyrightText {
+    width: 100%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px;
+    margin-top: 10vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 1px solid white;
+}
+
+.map2 {
+    display: none;
+}
+
+.map {
+    margin: 20px;
+    position: relative;
+    left: 18px;
+}
+
+.ouroffice {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ouroffice h1 {
+    color: aqua;
+    font-weight: bold;
+    border-top: 2px solid white;
+    font-size: 5vw;
+    text-align: center;
+    justify-content: center;
+    margin: 3vw;
+    padding-top: 2vw;
+}
+
+.ouroffice h2 {
+    color: white;
+    font-size: 3.5vw;
+    text-align: center;
+    justify-self: center
+}
+
+.ouroffice p {
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-bottom: 2px solid white;
+    margin: 3vw;
+}
+
+@media(max-width:768px) {
+ #center-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-brand
+    {
+        font-size: 25px;
+    }
+    
+   
+
+    .footer-nav-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    /* Preloader Start */
+    .preloader-title h2 {
+        font-size: 20px;
+    }
+
+    /* Preloader End */
+    /* new index page css start */
+    /*-Navbar Section-*/
+    .navbar-nav {
+        position: relative;
+        left: 0vw;
+    }
+
+    /*-Search Button Section-*/
+    .form-control {
+        margin: 0;
+    }
+
+    .gif {
+        min-height: 26vh;
+        min-width: 100vw;
+    }
+
+    /*-Main Title Section-*/
+    .maintitle h1 {
+        margin-top: 7vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+        font-size: 7.5vw;
+        border-bottom: 3px solid white;
+    }
+
+    /* Card Css */
+    .card-img {
+        height: 60vw;
+    }
+
+
+
+    /* Card Css End  */
+
+    .company img {
+        display: inline-block;
+        height: 45vw;
+        width: 45vw;
+        border-radius: 50%;
+        margin: 5vw;
+        position: relative;
+        top: 20px;
+        left: 24vw;
+        margin-bottom: 3vw;
+    }
+
+    .company2 img {
+        display: inline-block;
+        height: 45vw;
+        width: 45vw;
+        border-radius: 30%;
+        margin: 5vw;
+        position: relative;
+        top: 20px;
+        left: 20vw;
+        margin-bottom: 3vw;
+    }
+
+    .company h2 {
+        display: none;
+
+    }
+
+
+
+
+    body::-webkit-scrollbar {
+        background: transparent;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: aqua;
+        border-radius: 15px;
+        visibility: hidden;
+    }
+
+    body::-webkit-scrollbar-thumb:hover {
+        background-color: aqua;
+        border-radius: 15px;
+        visibility: visible;
+    }
+
+    .hero {
+        min-height: 40vh;
+        min-width: 100vw;
+        background-size: 70%;
+        color: white;
+        background-position: right;
+    }
+
+    #hero2 {
+        min-height: 50vw;
+        min-width: 100vw;
+    }
+
+    #hero3 {
+        min-height: 50vw;
+        min-width: 100vw;
+    }
+
+    #hero4 {
+        min-height: 50vw;
+        min-width: 100vw;
+    }
+
+    #hero5 {
+        min-height: 50vw;
+        min-width: 100vw;
+    }
+
+    #hero6 {
+        min-height: 50vw;
+        min-width: 100vw;
+    }
+
+    #hero7 {
+        min-height: 50vw;
+        min-width: 100vw;
+    }
+
+    .black {
+        color: black;
+    }
+
+    .nav h1 a {
+        font-size: 4.5vw;
+    }
+
+    .nav-part2 {
+        display: block;
+    }
+
+    .nav-part2 {
+        position: absolute;
+        background-color: whitesmoke;
+        height: 100vh;
+        width: 80%;
+        top: 0;
+        right: -400px;
+        z-index: 2;
+        border-radius: 0 0 0 100%;
+        transition: 0.9s;
+    }
+
+    .nav-part2 h4 a {
+        font-size: 5.1vw;
+        color: black;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 4vw;
+    }
+
+    #menu-title {
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inline-block;
+        padding-left: 12vw;
+    }
+
+    .nav-part2 i {
+        visibility: visible;
+        color: black;
+        font-size: 8vw;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    .nav i {
+        visibility: visible;
+        display: block;
+        padding: 1vw 1.5vw;
+        cursor: pointer;
+        color: aqua;
+        font-size: 7vw;
+    }
+
+    .heading {
+        padding: 35px 8px;
+    }
+
+    .heading h2 {
+        font-size: 6vw;
+        padding: 2vw 1vw;
+    }
+
+    .product-heading2 {
+        font-size: 4.6vw;
+        padding: 2vw 1vw;
+    }
+
+    .product-heading {
+        font-size: 8.5vw;
+    }
+
+    .product img {
+        height: 78px;
+        width: 78px;
+        padding: 3vw 9.3vw;
+    }
+
+    .products {
+        display: inline-block;
+    }
+
+    .product-main {
+        display: inline-block;
+    }
+
+    .item {
+        border-radius: 10%;
+        height: 85px;
+        width: 85px;
+    }
+
+    .product-photo {
+        width: 60vw;
+        height: 55vw;
+        padding-top: 2.5vw;
+        border-radius: 9%;
+    }
+
+    .product-photo3 {
+        width: 62vw;
+        height: 55vw;
+        padding-top: 2.5vw;
+        border: 2px solid transparent;
+        border-radius: 9%;
+    }
+
+    .product img {
+        width: 45vw;
+        height: 45vw;
+        margin-left: 15vw;
+    }
+
+    .product-section {
+        display: block;
+        padding: 0vw;
+        margin-left: 8vw;
+        margin-top: 5vw;
+    }
+
+    .main {
+        transition: all 500ms;
+    }
+
+    /*----first product--------*/
+    .product-box {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        width: 70vw;
+        height: 118vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw yellow;
+        border-radius: 7.5%;
+    }
+
+    .product-box h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: yellow;
+    }
+
+    .product-box p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: yellow;
+        padding-top: 4.3vw;
+    }
+
+    .product-box i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: yellow;
+        border: 1.5px solid yellow;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*------second product----*/
+    .product-box2 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        width: 70vw;
+        height: 118vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw whitesmoke;
+        border-radius: 7.5%;
+    }
+
+    .product-box2 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: whitesmoke;
+    }
+
+    .product-box2 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box2 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: whitesmoke;
+        padding-top: 4.3vw;
+    }
+
+    .product-box2 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box2 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box2 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: whitesmoke;
+        border: 1.5px solid whitesmoke;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box2 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*----third product--------*/
+    .product-box3 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        width: 70vw;
+        height: 125vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw red;
+        border-radius: 7.5%;
+    }
+
+    .product-box3 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: red;
+    }
+
+    .product-box3 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box3 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: red;
+        padding-top: 4.3vw;
+    }
+
+    .product-box3 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box3 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box3 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: red;
+        border: 1.5px solid red;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box3 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*----fourth product--------*/
+    .product-box4 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        width: 70vw;
+        height: 115vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(72, 72, 235);
+        border-radius: 7.5%;
+    }
+
+    .product-box4 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(72, 72, 235);
+    }
+
+    .product-box4 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box4 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: rgb(72, 72, 235);
+        padding-top: 4.3vw;
+    }
+
+    .product-box4 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box4 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box4 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: rgb(72, 72, 235);
+        border: 1.5px solid rgb(72, 72, 235);
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box4 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*----fifth product--------*/
+    .product-box5 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 8.1vw;
+        width: 70vw;
+        height: 115vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(3, 235, 3);
+        border-radius: 7.5%;
+    }
+
+    .product-box5 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(3, 235, 3);
+    }
+
+    .product-box5 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box5 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: rgb(3, 235, 3);
+        padding-top: 4.3vw;
+    }
+
+    .product-box5 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box5 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box5 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: rgb(3, 235, 3);
+        border: 1.5px solid rgb(3, 235, 3);
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box5 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*----sixth product--------*/
+    .product-box6 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        width: 70vw;
+        height: 120vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(59, 236, 248);
+        border-radius: 7.5%;
+    }
+
+    .product-box6 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(59, 236, 248);
+    }
+
+    .product-box6 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box6 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: rgb(59, 236, 248);
+        padding-top: 4.3vw;
+    }
+
+    .product-box6 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box6 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box6 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: rgb(59, 236, 248);
+        border: 1.5px solid rgb(59, 236, 248);
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box6 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*---- seventhproduct--------*/
+    .product-box7 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        width: 70vw;
+        height: 124vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw red;
+        border-radius: 7.5%;
+    }
+
+    .product-box7 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: red;
+    }
+
+    .product-box7 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box7 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: red;
+        padding-top: 4.3vw;
+    }
+
+    .product-box7 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box7 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box7 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: red;
+        border: 1.5px solid red;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box7 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*---- eightproduct--------*/
+    .product-box8 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 126vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(0, 185, 247);
+        border-radius: 7.5%;
+    }
+
+    .product-box8:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px rgb(0, 99, 192)
+    }
+
+    .product-box8 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(0, 185, 247);
+    }
+
+    .product-box8 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box8 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: rgb(0, 185, 247);
+        padding-top: 4.3vw;
+    }
+
+    .product-box8 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box8 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box8 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: rgb(0, 185, 247);
+        border: 1.5px solid rgb(0, 185, 247);
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box8 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*-----nine section-----*/
+    .product-box9 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 125vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(159, 0, 180);
+        border-radius: 7.5%;
+    }
+
+    .product-box9:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px rgb(225, 0, 255);
+
+    }
+
+    .product-box9 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(225, 0, 255);
+    }
+
+    .product-box9 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box9 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: rgb(225, 0, 255);
+        padding-top: 4.3vw;
+    }
+
+    .product-box9 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box9 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box9 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: rgb(225, 0, 255);
+        border: 1.5px solid rgb(225, 0, 255);
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box9 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*-----Tensection-----*/
+    .product-box10 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 120vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(252, 168, 13);
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box10:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px rgb(202, 132, 1);
+
+    }
+
+    .product-box10 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(252, 168, 13);
+    }
+
+    .product-box10 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box10 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: rgb(252, 168, 13);
+        padding-top: 4.3vw;
+    }
+
+    .product-box10 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box10 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box10 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: rgb(252, 168, 13);
+        border: 1.5px solid rgb(252, 168, 13);
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box10 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*-----11 section-----*/
+    .product-box11 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 133vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(252, 109, 13);
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box11:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px rgb(252, 109, 13);
+
+    }
+
+    .product-box11 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(252, 109, 13);
+    }
+
+    .product-box11 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box11 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: rgb(252, 109, 13);
+        padding-top: 4.3vw;
+    }
+
+    .product-box11 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box11 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box11 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: rgb(252, 109, 13);
+        border: 1.5px solid rgb(252, 109, 13);
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box11 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*-12th Section*/
+    .product-box12 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 123vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(0, 38, 255);
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box12:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px rgb(0, 38, 255);
+
+    }
+
+    .product-box12 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(0, 38, 255);
+    }
+
+    .product-box12 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box12 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: rgb(0, 38, 255);
+        padding-top: 4.3vw;
+    }
+
+    .product-box12 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box12 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box12 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: rgb(0, 38, 255);
+        border: 1.5px solid rgb(0, 38, 255);
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box12 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*-13th Section-*/
+    .product-photo:hover {
+        transform: scale(1.2);
+    }
+
+    .product-photo2 {
+        width: 20vw;
+        height: 20vw;
+        padding-top: 10vw;
+        border-radius: 9%;
+
+    }
+
+    .product-box13 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 110vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(148, 148, 148);
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box13:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px rgb(88, 88, 88);
+
+    }
+
+    .product-box13 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: whitesmoke;
+    }
+
+    .product-box13 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .product-box13 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: whitesmoke;
+        padding-top: 4.3vw;
+    }
+
+    .product-box13 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box13 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box13 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: whitesmoke;
+        border: 1.5px solid white;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box13 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*-14th Section-*/
+    .product-box14 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 122vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(169, 83, 226);
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box14:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px rgb(121, 49, 168);
+
+    }
+
+    .product-box14 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(169, 83, 226);
+    }
+
+    .product-box14 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box14 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: rgb(169, 83, 226);
+        padding-top: 4.3vw;
+    }
+
+    .product-box14 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box14 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box14 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: rgb(169, 83, 226);
+        border: 1.5px solid rgb(169, 83, 226);
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box14 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*15th Section-*/
+    .product-box15 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 123vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw brown;
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box15:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px rgb(97, 27, 27);
+
+    }
+
+    .product-box15 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: brown;
+    }
+
+    .product-box15 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box15 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: brown;
+        padding-top: 4.3vw;
+
+    }
+
+    .product-box15 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box15 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box15 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: brown;
+        border: 1.5px solid brown;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box15 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*16th Section-*/
+    .product-box16 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 120vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw rgb(184, 38, 118);
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box16:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px rgb(143, 28, 91);
+
+    }
+
+    .product-box16 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(184, 38, 118);
+    }
+
+    .product-box16 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box16 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: rgb(184, 38, 118);
+        padding-top: 4.3vw;
+    }
+
+    .product-box16 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box16 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box16 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: rgb(184, 38, 118);
+        border: 1.5px solid rgb(184, 38, 118);
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box16 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*17th Section-*/
+    .product-box17 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 125vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw #f6e7c0;
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box17:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px #d1ac80;
+
+    }
+
+    .product-box17 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #f6e7c0;
+    }
+
+    .product-box17 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box17 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: #f6e7c0;
+        padding-top: 4.3vw;
+    }
+
+    .product-box17 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box17 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box17 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: #f6e7c0;
+        border: 1.5px solid #f6e7c0;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box17 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*18th Section-*/
+    .product-box18 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 125vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw #fec458;
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box18:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px #b7853e;
+
+    }
+
+    .product-box18 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fec458;
+    }
+
+    .product-box18 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box18 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: #fec458;
+        padding-top: 4.3vw;
+    }
+
+    .product-box18 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box18 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box18 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: #fec458;
+        border: 1.5px solid #fec458;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box18 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*19th Section-*/
+    .product-box19 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 123vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw #2d9dd4;
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box19:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px #105694;
+
+    }
+
+    .product-box19 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    }
+
+    .product-box19 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box19 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: white;
+        padding-top: 4.3vw;
+    }
+
+    .product-box19 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box19 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box19 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: #2d9dd4;
+        border: 1.5px solid #2d9dd4;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box19 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*19th Section-*/
+    .product-box20 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 115vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw #5c54a1;
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box20:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px #524a7f;
+
+    }
+
+    .product-box20 h3 {
+        padding-top: 1.9vw;
+        font-size: 5.7vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #5c54a1;
+    }
+
+    .product-box20 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box20 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: #5c54a1;
+        padding-top: 4.3vw;
+    }
+
+    .product-box20 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box20 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box20 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: #5c54a1;
+        border: 1.5px solid #5c54a1;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box20 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*21th Section-*/
+    .product-box21 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 115vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw #d71d42;
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box21:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px #d21b3f;
+
+    }
+
+    .product-box21 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #d71d42;
+    }
+
+    .product-box21 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box21 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: #d71d42;
+        padding-top: 4.3vw;
+    }
+
+    .product-box21 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box21 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box21 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: #d71d42;
+        border: 1.5px solid #d71d42;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box21 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*22th Section-*/
+    .product-box22 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 115vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw #18a2d0;
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box22:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px #2492be;
+
+    }
+
+    .product-box22 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #18a2d0;
+    }
+
+    .product-box22 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box22 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: #18a2d0;
+        padding-top: 4.3vw;
+    }
+
+    .product-box22 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box22 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box22 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: #18a2d0;
+        border: 1.5px solid #18a2d0;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box22 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*23th Section-*/
+    .product-box23 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 115vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw #e282b0;
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box23:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px #d688a8;
+
+    }
+
+    .product-box23 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #e282b0;
+    }
+
+    .product-box23 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box23 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: #e282b0;
+        padding-top: 4.3vw;
+    }
+
+    .product-box23 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box23 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box23 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: #e282b0;
+        border: 1.5px solid #e282b0;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box23 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*24th Section-*/
+    .product-box24 {
+        padding: 2vw;
+        text-align: center;
+        background: #000;
+        position: relative;
+        margin: 5vw;
+        margin-top: 10vw;
+        width: 70vw;
+        height: 115vw;
+        box-shadow: 0.4vw 0.4vw 1.5vw #cf8c43;
+        border-radius: 7.5%;
+        transition: 0.5s;
+    }
+
+    .product-box24:hover {
+        transform: scale(1.1);
+        box-shadow: 6px 6px 16px #f4913d;
+
+    }
+
+    .product-box24 h3 {
+        padding-top: 1.9vw;
+        font-size: 5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #cf8c43;
+    }
+
+    .product-box24 p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        padding-top: 1.9vw;
+        font-size: 3vw;
+    }
+
+    .product-box24 .price {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        color: #cf8c43;
+        padding-top: 4.3vw;
+    }
+
+    .product-box24 i {
+        font-size: 4.3vw;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+
+    .product-box24 .butoons {
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        margin-top: 0.5vw;
+        margin-left: 13.5vw;
+    }
+
+    .product-box24 .butoons a {
+        margin-left: 9.5vw;
+        margin-top: 3.1vw;
+        padding: 2vw;
+        font-size: 4vw;
+        text-decoration: none;
+        color: #cf8c43;
+        border: 1.5px solid #cf8c43;
+        border-radius: 13%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .product-box24 .butoons a.buy:hover {
+        background-color: white;
+        color: black;
+    }
+
+    /*-About Page Css-*/
+    .headeing {
+        padding: 20px;
+    }
+
+    .b {
+        color: aqua;
+        font-size: 40px;
+        text-shadow: 3px 3px 15px aqua;
+        padding-top: 2vw;
+    }
+
+    .Story {
+        margin: 0%;
+        padding: 0%;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+
+    }
+
+    .section-heading h1 {
+        font-size: 5vw;
+    }
+
+    .section-heading a {
+        font-size: 3vw;
+    }
+
+    .section-heading .b {
+        font-size: 25px;
+    }
+
+    /*-Map Section-*/
+    .map {
+        display: none;
+    }
+
+    .map2 {
+        display: inline;
+    }
+
+    .ouroffice h1 {
+        font-size: 5.9vw;
+    }
+
+    .ouroffice h2 {
+        font-size: 4.9vw;
+    }
+
+    .ouroffice p {
+        font-size: 3.3vw;
+
+    }
+
+    footer {
+        padding: 40px;
+    }
+
+    footer .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2px;
+    }
+
+    .copyrightText {
+        width: 100%;
+        color: white;
+        padding: 10px 0px;
+        margin-top: 10vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-top: 1px solid white;
+    }
+
+    footer .container .sci li a {
+        display: inline-block;
+        width: 75px;
+        height: 50px;
+        display: grid;
+        text-decoration: none;
+    }
+
+    footer .container .sci li a i {
+        color: aqua;
+        font-size: 20px;
+        margin-left: 10vw;
+    }
+
+
+
+    /*-Navbar Section-*/
+    .navbar-nav {
+        position: relative;
+        left: 0vw;
+        background-color: transparent;
+    }
+
+    .searchBox {
+        position: relative;
+        bottom: -5px;
+        font-size: 5vw;
+        color: white;
+    }
+
+    /*-Search Button Section-*/
+    .form-control {
+        margin: 0;
+    }
+
+    .background {
+        position: relative;
+        top: 0;
+        min-height: 50vh;
+        min-width: 100vw;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .background h1 {
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 6.5vw;
+        margin-left: 29vw;
+        padding-top: 27vw;
+    }
+
+    .background h2 {
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 7vw;
+        margin-left: 29vw;
+    }
+
+
+    /* -Main Title Section- */
+    .maintitle h1 {
+        margin-bottom: 0vh;
+        margin-left: 6vw;
+        margin-right: 6vw;
+        font-size: 7.5vw;
+        color: white;
+        border-bottom: 3px solid white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+
+    .company img {
+        display: inline-block;
+        position: relative;
+        top: o;
+        height: 45vw;
+        width: 45vw;
+        border-radius: 50%;
+        margin: 4vw;
+        /* margin-left: 26vw; */
+
+    }
+
+    .company2 img {
+        display: inline-block;
+        position: relative;
+        top: o;
+        height: 45vw;
+        width: 45vw;
+        border-radius: 20%;
+        margin: 4vw;
+        /* margin-left: 26vw; */
+
+    }
+
+
+
+    .company h2 {
+        display: none;
+
+    }
+
+    .company h3 {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+    }
+
+    .center-card-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Button Section */
+    #btn2 {
+        background-color: black;
+        color: yellow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        border: none;
+        margin-top: 5vw;
+    }
+
+    #btn2:hover {
+        background-color: whitesmoke;
+        color: black;
+        border: 2px solid yellow;
+    }
+
+    nav .nav-bar .sidebarOpen {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        height: 100%;
+        width: 320px;
+        left: -100%;
+        top: 0;
+        padding: 20px;
+        background-color: var(--side-nav);
+        z-index: 100;
+        transition: all 0.4s ease;
+    }
+
+    nav.active .menu {
+        left: -0%;
+    }
+
+    nav.active .nav-bar .navLogo a {
+        opacity: 0;
+        transition: all 0.3s ease;
+
+    }
+
+    #logo {
+        position: relative;
+        left: 10px;
+        font-size: 6vw;
+
+    }
+
+    .menu .logo-toggle {
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-toggle .siderbarClose {
+        color: var(--text-color);
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-bar .nav-links {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .nav-links li a {
+        display: block;
+        margin-top: 20px;
+    }
+
+
+    nav .nav-bar .sidebarOpen {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        height: 100%;
+        width: 320px;
+        left: -100%;
+        top: 0;
+        padding: 20px;
+        background-color: var(--side-nav);
+        z-index: 100;
+        transition: all 0.4s ease;
+    }
+
+    nav.active .menu {
+        left: -0%;
+    }
+
+    nav.active .nav-bar .navLogo a {
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    .menu .logo-toggle {
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-toggle .siderbarClose {
+        color: var(--text-color);
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-bar .nav-links {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .nav-links li a {
+        display: block;
+        margin-top: 20px;
+    }
+
+    /* footer navigation bar */
+    .footmenu {
+        color: white;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 70px;
+        line-height: 30px;
+        display: block;
+    }
+
+    #bottomnav {
+        border-color: black;
+    }
+
+    .dropup {
+        border: none;
+    }
+
+    .btn {
+        border: none;
+        font-size: 22px;
+        color: aqua;
+    }
+
+    .home {
+        text-decoration: none;
+        color: aqua;
+        font-size: 22px;
+        padding-left: 15vw;
+    }
+
+    .up {
+        text-decoration: none;
+        color: aqua;
+        font-size: 22px;
+        padding-left: 18.5vw;
+        background-color: #000;
+    }
+}
+
+
+
+/* ========================================================================================================================== */
+
+/* New Card Style */
+.carousel-inner .carousel-item .active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev
+{
+    display: flex;
+}
+/* New Card Style End*/
+/* ========================================================================================================================== */
