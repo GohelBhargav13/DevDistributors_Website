@@ -1,6 +1,6 @@
 <?php
 require './conn.php';
-include '../../Comman_pages/navbar.php';
+include '../Comman_pages/navbar.php';
 if ($_SERVER['REQUEST_METHOD'] === "GET" && isset($_GET['cat_name'])) {
     $cat_name = strval($_GET['cat_name']);
 } else {

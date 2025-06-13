@@ -1,6 +1,6 @@
 <?php
 require './conn.php';
-include '../../Comman_pages/navbar.php';
+include '../Comman_pages/navbar.php';
 if (session_status() === PHP_SESSION_NONE) {
         session_start();
 }

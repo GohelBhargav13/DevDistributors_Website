@@ -1,6 +1,5 @@
 <?php
 require './conn.php';
-
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
@@ -44,6 +43,7 @@ $sql = 'SELECT * FROM company';
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+     <?php include '../Comman_pages/navbar.php' ?>
 
     <?php if (isset($_SESSION['user_username'])) { ?>
         <div class="alert alert-success alert-dismissible fade show" role="alert" data-aos="zoom-in" data-aos-delay="200">
@@ -63,8 +63,7 @@ $sql = 'SELECT * FROM company';
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     <?php } ?>
-
-    <?php include '../../Comman_pages/fetchAllCompany.php' ?>
+ 
     <?php if (isset($_SESSION['Admin_name'])) { ?>
         <center>
             <div class="heading" data-aos="fade-out" data-aos-delay="400">
